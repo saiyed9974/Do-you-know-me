@@ -17,7 +17,7 @@ function play(question,answer){
  
 }
 
-var questions = [{question:'where do i live?',answer:'pune' },{question:'what is my age?',answer:'40'},{question:'where do I work?',answer:'Rudra Infotech'},{question:'Am I married ?',answer:'yes'},{question:'How many children I have?',answer:'2'}];
+var questions = [{question:'where do i live?',answer:'pune' },{question:'what is my age?',answer:'40'},{question:'where do I work?',answer:'Rudra Infotech'},{question:'Am I married ?',answer:'yes'},{question:'How many children I have?',answer:'2'},{question:'My favorite Destination is ?',answer:'Goa'}];
 for(var i = 0;i < questions.length;i++){
   var currentQuestion = questions[i];
   play(currentQuestion.question,currentQuestion.answer)
